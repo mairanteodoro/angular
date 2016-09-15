@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
+set -e -o pipefail
 
 #
 # This script is used to compile and copy the contents for each of
@@ -11,7 +13,7 @@ cd `dirname $0`
 
 DIST="../../../dist/examples";
 rm -rf -- $DIST
-$(npm bin)/tsc -p .
+$(npm bin)/tsc -p ./tsconfig-build.json
 
 mkdir $DIST/vendor/
 

@@ -7,7 +7,7 @@
 [![Downloads](http://img.shields.io/npm/dm/angular2.svg)](https://npmjs.org/package/angular2)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/angular2-ci.svg)](https://saucelabs.com/u/angular2-ci)  
-*Safari (7+), iOS (7+), Edge (14) and IE mobile (11) are tested on [BrowserStack][https://www.browserstack.com/].*
+*Safari (7+), iOS (7+), Edge (14) and IE mobile (11) are tested on [BrowserStack][browserstack].*
 
 Angular
 =========
@@ -17,7 +17,6 @@ repository for [Angular 2][ng2] Typescript/JavaScript (JS).
  
 Angular2 for [Dart][dart] can be found at [dart-lang/angular2][ng2dart].
 
-Angular 2 is currently in **Release Candidate**.
 
 ## Quickstart
 
@@ -29,10 +28,9 @@ Angular 2 is currently in **Release Candidate**.
 Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our
 guidelines for [contributing][contributing] and then check out one of our issues in the [hotlist: community-help](https://github.com/angular/angular/labels/hotlist%3A%20community-help).
 
-
+[browserstack]: https://www.browserstack.com/
 [contributing]: http://github.com/angular/angular/blob/master/CONTRIBUTING.md
 [dart]: http://www.dartlang.org
-[dartium]: http://www.dartlang.org/tools/dartium
 [quickstart]: https://angular.io/docs/ts/latest/quickstart.html
 [ng2]: http://angular.io
 [ngDart]: http://angulardart.org

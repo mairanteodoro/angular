@@ -2911,15 +2911,7 @@
           "version": "2.4.1"
         },
         "minimatch": {
-          "version": "0.3.0",
-          "dependencies": {
-            "lru-cache": {
-              "version": "2.7.3"
-            },
-            "sigmund": {
-              "version": "1.0.1"
-            }
-          }
+          "version": "0.3.0"
         }
       }
     },
@@ -3180,6 +3172,9 @@
     },
     "loud-rejection": {
       "version": "1.2.0"
+    },
+    "lru-cache": {
+      "version": "2.7.3"
     },
     "lru-queue": {
       "version": "0.1.0"
@@ -3654,6 +3649,20 @@
         "isarray": {
           "version": "1.0.0"
         },
+        "jasmine": {
+          "version": "2.4.1",
+          "dependencies": {
+            "glob": {
+              "version": "3.2.11"
+            },
+            "minimatch": {
+              "version": "0.3.0"
+            }
+          }
+        },
+        "jasmine-core": {
+          "version": "2.4.1"
+        },
         "mime-db": {
           "version": "1.23.0"
         },
@@ -3899,7 +3908,7 @@
       }
     },
     "rxjs": {
-      "version": "5.0.0-beta.11"
+      "version": "5.0.0-beta.12"
     },
     "sauce-connect-launcher": {
       "version": "0.13.0",
@@ -3983,6 +3992,9 @@
     },
     "setimmediate": {
       "version": "1.0.4"
+    },
+    "sigmund": {
+      "version": "1.0.1"
     },
     "signal-exit": {
       "version": "2.1.2"
@@ -4655,9 +4667,9 @@
       }
     },
     "zone.js": {
-      "version": "0.6.17"
+      "version": "0.6.21"
     }
   },
   "name": "angular-srcs",
-  "version": "2.0.0-rc.6"
+  "version": "2.0.0-rc.7"
 }
